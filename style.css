@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #111; /* Orqa fon rangini qora */
+    color: #eee; /* Matn rangi */
+  }
+  
+  .container {
+    max-width: 1200px; /* Maksimal container kengligi */
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #ff66cc; /* Asosiy rang (rozoviy) */
+    height: 80px; /* Header balandligi */
+    padding: 20px 0;
+  }
+  
+  .header__logo {
+    font-size: 2rem;
+    color: #fff; /* Oq rang */
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header__item a {
+    color: #fff; /* Oq rangli matn */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header__btn {
+    background-color: #fff; /* Oq tugma fon */
+    color: #ff66cc; /* Rozoviy rang */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('/path/to/your-image.jpg') no-repeat center center/cover; /* Background rasmi */
+    padding: 50px 15px;
+    text-align: center;
+  }
+  
+  .hero__title {
+    font-size: 2rem;
+    color: #fff; /* Oq rang */
+  }
+  
+  .hero__btn {
+    background-color: #ff66cc; /* Rozoviy tugma */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .hero__video {
+    margin-top: 20px;
+  }
+  
+  .video__play {
+    background-color: #ff3366; /* Boshqa rangli tugma */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #ff66cc; /* Rozoviy footer */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer__text {
+    color: #fff;
+    margin: 5px 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .header__menu {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .hero__container {
+      padding: 20px;
+    }
+  }
+  
