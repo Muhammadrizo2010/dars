@@ -109,3 +109,93 @@ body {
     }
   }
   
+
+          /* Reset styles */
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background: rgb(240, 240, 240); /* Light gray background */
+        }
+
+        .user {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        .nav-list {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        .nav-list li {
+            margin: 0 1rem;
+        }
+
+        .nav-list a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 2rem;
+            background: #ff3366;
+            text-align: center;
+        }
+
+        #home {
+            background: rgb(255, 182, 193); /* Light pink */
+            padding: 3rem 1rem;
+        }
+
+        #about {
+          background: rgb(173, 216, 230); /* Light blue */
+            padding: 3rem 1rem;
+        }
+
+        #contact {
+          background: rgb(144, 238, 144); /* Light green */
+            padding: 3rem 1rem;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        form button {
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
